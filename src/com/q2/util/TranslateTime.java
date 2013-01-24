@@ -53,7 +53,7 @@ public class TranslateTime {
 				translateLessThanThirtyMins(minutes, on_off);
 			}else{
 				Util.switchOnTo(on_off);
-				setHour(((hour + 1) % 12), on_off);
+				setHour(((hour + 1) % 13), on_off);
 				translateMoreThanThirtyMins(minutes,on_off);
 			}
 		}
